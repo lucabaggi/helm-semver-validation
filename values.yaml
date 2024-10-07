@@ -1,0 +1,7 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  # Overrides the image version whose default is the chart appVersion.
+  version: "1.16.0"
